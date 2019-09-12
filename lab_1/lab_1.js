@@ -4,7 +4,7 @@ const rl = readline.createInterface({ //установка интерфейса
     output: process.stdout //вывод данных
 });
 let exercise1_3 = {  //создание объекта
-    password : "qwerty",
+    password : "NIKITA",
 }
 exercise1_3.checking = function() {  //объявление метода
 rl.question('Enter the password: ', (answer) => {
