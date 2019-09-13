@@ -3,7 +3,7 @@ const rl = readline.createInterface({ //установка интерфейса
     input: process.stdin, //ввод данных
     output: process.stdout //вывод данных
 });
-rl.question('Enter the string of numbers witn , ', (answer) => {
+rl.question('Enter the numbers witn , ', (answer) => {
     let numb = answer.split(',').map(parseFloat);
     console.log(numb);
     let sum = 0;
