@@ -2,6 +2,7 @@ var fs = require('fs');
 
 function lab2_5(file) {
     var i = 0;
+    var kol = 0;
     let filetext = fs.readFileSync(file, 'utf8', (err) => {
         if (err) throw (err);
     });
@@ -10,12 +11,14 @@ function lab2_5(file) {
     for (item in text) {
         if (isFinite(text[item])) {
             i++;
-        } else {
-            i =0;
+        } else if (!isFinite(text[item])+1) {
+        kol = i;
+        i = 0;
             text[item] = text[item + 1];
-        }
+        } 
+        
     }
-    console.log('Наибольшее число цифр идущих подряд:', i);
+    console.log('Наибольшее число цифр идущих подряд:', kol);
 }
 
 try {
