@@ -12,7 +12,7 @@ function lab2_5(file) {
         if (isFinite(text[item])) {
             i++;
         } else if (!isFinite(text[item])+1) {
-        kol = i;
+            if (kol < i) kol = i;
         i = 0;
             text[item] = text[item + 1];
         } 
