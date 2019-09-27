@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Отправка сообщений</title>
+    <style>
+     * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+
+        }
+        body {
+          height: 100%;
+            font: 13px Helvetica, Arial;
+        }
+        form {
+            background: rgb(219, 140, 173);
+            padding: 5px;
+            width: 50%;
+        }
+        form input {
+
+            border: 100;
+            padding: 10px;
+            width: 90%;
+            margin-right: .5%;
+        }
+        form button {
+            width: 9%;
+            background: rgb(246, 36, 124);
+            border: none;
+            padding: 10px;
+            color: aliceblue;
+        }
+    </style>
+  </head>
+  <body>
+    <ul id="messages"></ul>
+    <div class="main">
+        <form action="">
+            <input id="m" autocomplete="off" /><button>Send</button>
+        </form>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+      $(function () {
+        var socket = io();
+        $('form').submit(function(e){ //отправка формы
+          e.preventDefault(); // предотвратить обновление формы после нажатия на кнопку
+          socket.emit('message', $('#m').val());// отправка текущему сокету значение message
+                                                          // $('#m').val('');
+                                                          // return false;
+        });
+      });
+    </script>
+  </body>
+</html>
