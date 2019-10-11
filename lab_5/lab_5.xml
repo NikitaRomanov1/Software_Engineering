@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="lab_5.xsl"?> -->
+<tariffs>
+    <tariff>
+        <name>SUPER_MTS</name>
+        <operator_name>MTS</operator_name>
+        <payroll>200</payroll>
+        <call_prices>
+            <inside>0</inside>
+            <outside>2 </outside>
+            <landline>1.5 </landline>
+        </call_prices>
+        <sms_price>0.5</sms_price>
+        <parameters>
+            <favourite_number>2 </favourite_number>
+            <rate>1 </rate>
+            <connectionPayment>50</connectionPayment>
+        </parameters>
+    </tariff>
+    <tariff>
+        <name>SUPER_TELE2</name>
+        <operator_name>TELE2</operator_name>
+        <payroll>300 </payroll>
+        <call_prices>
+            <inside>0</inside>
+            <outside>0.5 </outside>
+            <landline>0.5 </landline>
+        </call_prices>
+        <sms_price>0.5 </sms_price>
+        <parameters>
+            <favourite_number>3 </favourite_number>
+            <rate>1 </rate>
+            <connectionPayment>30</connectionPayment>
+        </parameters>
+    </tariff>
+    <tariff>
+        <name>SUPER_BEELINE</name>
+        <operator_name>BEELINE</operator_name>
+        <payroll>250 </payroll>
+        <call_prices>
+            <inside>0 </inside>
+            <outside>1 </outside>
+            <landline>0.5 </landline>
+        </call_prices>
+        <sms_price>1 </sms_price>
+        <parameters>
+            <favourite_number>1 </favourite_number>
+            <rate>1 </rate>
+            <connectionPayment>0 </connectionPayment>
+        </parameters>
+    </tariff>
+    <tariff>
+        <name>SUPER_MEGAFON</name>
+        <operator_name>MEGAFON </operator_name>
+        <payroll>350 </payroll>
+        <call_prices>
+            <inside>0 </inside>
+            <outside>0.5 </outside>
+            <landline>0.5 </landline>
+        </call_prices>
+        <sms_price>0 </sms_price>
+        <parameters>
+            <favourite_number>4 </favourite_number>
+            <rate>1 </rate>
+            <connectionPayment>0 </connectionPayment>
+        </parameters>
+    </tariff>
+</tariffs>
