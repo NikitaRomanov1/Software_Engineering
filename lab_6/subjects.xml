@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subjects>
+    <subject>
+        <name>Разработка защищенных программных систем</name>
+        <time>Вторник</time>
+        <class>523</class>
+    </subject>
+    <subject>
+        <name>Архитектура вычислительных систем</name>
+        <time>Вторник</time>
+        <class>508</class>
+    </subject>
+    <subject>
+        <name>Тестирование программного обеспечения</name>
+        <time>Вторник</time>
+        <class>216</class>
+    </subject>
+    <subject>
+        <name>Основы управленческой деятельности</name>
+        <time>Среда</time>
+        <class>618</class>
+    </subject>
+    <subject>
+        <name>Теория принятия решений</name>
+        <time>Среда</time>
+        <class>313</class>
+    </subject>
+    <subject>
+        <name>Надежность программного обеспечения</name>
+        <time>Четверг</time>
+        <class>514</class>
+    </subject>
+    <subject>
+        <name>Психология и педагогика</name>
+        <time>Четверг</time>
+        <class>616</class>
+    </subject>
+    <subject>
+        <name>Конструирование программного обеспечения</name>
+        <time>Суббота</time>
+        <class>514</class>
+    </subject>
+
+
+
+
+</subjects>

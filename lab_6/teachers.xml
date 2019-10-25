@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teachers>
+    <teacher>
+        <name>Краковский Ю.М.</name>
+        <subjects>523</subjects>
+        <amount_subjects>1</amount_subjects>
+        <amount_students>23</amount_students>
+    </teacher>
+    <teacher>
+        <name>Кашковский В.В.</name>
+        <subjects>508</subjects>
+        <amount_subjects>1</amount_subjects>
+        <amount_students>23</amount_students>
+    </teacher>
+    <teacher>
+        <name>Лучников В.А.</name>
+        <subjects>216</subjects>
+        <amount_subjects>1</amount_subjects>
+        <amount_students>40</amount_students>
+    </teacher>
+    <teacher>
+        <name>Кириллова Т.К.</name>
+        <subjects>618</subjects>
+        <amount_subjects>1</amount_subjects>
+        <amount_students>40</amount_students>
+    </teacher>
+    <teacher>
+        <name>Ермаков А.А</name>
+        <subjects>313</subjects>
+        <amount_subjects>1</amount_subjects>
+        <amount_students>40</amount_students>
+    </teacher>
+    <teacher>
+        <name>Сергеева И.А</name>
+        <subjects>616</subjects>
+        <amount_subjects>1</amount_subjects>
+        <amount_students>40</amount_students>
+    </teacher>
+    <teacher>
+        <name>Курганская О.В.</name>
+        <subjects>514</subjects>
+        <amount_subjects>1</amount_subjects>
+        <amount_students>40</amount_students>
+    </teacher>
+</teachers>

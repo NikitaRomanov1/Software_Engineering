@@ -1,0 +1,122 @@
+{
+	"subjects": {
+		"subject": [
+			{
+				"name": "Разработка защищенных программных систем",
+				"time": "Вторник",
+				"class": "523"
+			},
+			{
+				"name": "Архитектура вычислительных систем",
+				"time": "Вторник",
+				"class": "508"
+			},
+			{
+				"name": "Тестирование программного обеспечения",
+				"time": "Вторник",
+				"class": "216"
+			},
+			{
+				"name": "Основы управленческой деятельности",
+				"time": "Среда",
+				"class": "618"
+			},
+			{
+				"name": "Теория принятия решений",
+				"time": "Среда",
+				"class": "313"
+			},
+			{
+				"name": "Надежность программного обеспечения",
+				"time": "Четверг",
+				"class": "514"
+			},
+			{
+				"name": "Психология и педагогика",
+				"time": "Четверг",
+				"class": "616"
+			},
+			{
+				"name": "Конструирование программного обеспечения",
+				"time": "Суббота",
+				"class": "514"
+			}
+		]
+	},
+
+
+	"teachers": {
+		"teacher": [
+			{
+				"name": "Краковский Ю.М.",
+				"subjects": {
+					"subject": [
+						"523"
+					]
+				},
+				"amount_subjects": "1",
+				"amount_students": "23"
+			},
+			{
+				"name": "Кашковский В.В.",
+				"subjects": {
+					"subject": [
+						"508"
+					]
+				},
+				"amount_subjects": "1",
+				"amount_students": "23"
+			},
+			{
+				"name": "Лучников В.А.",
+				"subjects": {
+					"subject": [
+						"216"
+					]
+				},
+				"amount_subjects": "1",
+				"amount_students": "40"
+			},
+			{
+				"name": "Кириллова Т.К.",
+				"subjects": {
+					"subject": [
+						"618"
+					]
+				},
+				"amount_subjects": "1",
+				"amount_students": "40"
+			},
+			{
+				"name": "Ермаков А.А",
+				"subjects": {
+					"subject": [
+						"313"
+					]
+				},
+				"amount_subjects": "1",
+				"amount_students": "40"
+			},
+			{
+				"name": "Сергеева И.А",
+				"subjects": {
+					"subject": [
+						"616"
+					]
+				},
+				"amount_subjects": "1",
+				"amount_students": "40"
+			},
+			{
+				"name": "Курганская О.В.",
+				"subjects": {
+					"subject": [
+						"514"
+					]
+				},
+				"amount_subjects": "1",
+				"amount_students": "40"
+			}
+		]
+	}
+}
